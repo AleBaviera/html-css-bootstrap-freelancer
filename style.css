@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: arial, sans-serif;
+}
+
+
+.navbar{
+  background-color: #2C3E50;
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar ul li{
+  list-style: none;
+}
