@@ -26,10 +26,15 @@ body{
 
 .chisiamo{
   background-color: #53BD9D;
-
   padding: 50px 0;
 }
-
+/* .chisiamo span i{
+  width: 30px;
+  height: auto;
+} */
+.chisiamo p{
+  text-transform: none;
+}
 img{
   width: 200px;
   height: auto;
