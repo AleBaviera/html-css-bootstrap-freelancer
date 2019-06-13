@@ -6,15 +6,31 @@
 body{
   font-family: arial, sans-serif;
 }
+.marg-top{
+  margin-top: -20px;
+}
 
-
-.navbar,.navbar-brand{
+.bg-blue{
   background-color: #2C3E50;
+
+}
+.txt-white{
   color: white;
   text-transform: uppercase;
   text-align: center;
 }
-
 .navbar ul li{
+  font-size: 15px;
   list-style: none;
+}
+
+.chisiamo{
+  background-color: #53BD9D;
+
+  padding: 50px 0;
+}
+
+img{
+  width: 200px;
+  height: auto;
 }
