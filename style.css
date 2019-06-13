@@ -8,10 +8,11 @@ body{
 }
 
 
-.navbar{
+.navbar,.navbar-brand{
   background-color: #2C3E50;
   color: white;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .navbar ul li{
