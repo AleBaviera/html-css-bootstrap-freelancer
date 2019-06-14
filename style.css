@@ -12,6 +12,7 @@ body{
 
 .bg-blue{
   background-color: #2C3E50;
+  padding: 20px;
 
 }
 .txt-white{
@@ -19,23 +20,30 @@ body{
   text-transform: uppercase;
   text-align: center;
 }
+.navbar a:hover{
+  color:white;
+
+}
+.navbar ul{
+  float: right;
+
+}
 .navbar ul li {
   font-size: 15px;
   list-style: none;
+  float:left;
+  padding-left: 40px;
 }
 .navbar ul li a:hover{
-  text-decoration: none;
-  color: white;
+ color: #53BD9D;
+ text-decoration: none;
 
 }
 .chisiamo{
   background-color: #53BD9D;
-  padding: 50px 0;
+  padding: 100px 0;
 }
-/* .chisiamo span i{
-  width: 30px;
-  height: auto;
-} */
+
 
 .dividers{
   border-bottom: 3px solid white;
@@ -44,7 +52,13 @@ body{
 .glyphicon-star{
   font-size: 40px;
 }
+
+.chisiamo h1{
+  font-size: 60px;
+  font-weight: bold;
+}
 .chisiamo p{
+  font-size: 25px;
   text-transform: none;
   margin-top: 20px;
 }
