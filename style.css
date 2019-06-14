@@ -154,9 +154,12 @@ body{
 #contact form{
   margin-top: 5%;
   font-size: 30px;
-  font-weight: lighter;
   color: lightgray;
 }
+#contact form label{
+  font-weight: lighter;
+}
+
 #contact button{
   background-color: #53BD9D;
   color: white;
