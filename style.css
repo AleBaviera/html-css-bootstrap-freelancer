@@ -172,11 +172,15 @@ footer h3, footer p{
 
   padding: 3%;
 }
-footer a i{
+
+footer .icons{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+footer .icons a i{
   color:white;
   font-size: 40px;
-  position: relative;
-  left: 10%;
   margin: 5%;
 }
 #copyright{
