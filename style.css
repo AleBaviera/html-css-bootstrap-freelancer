@@ -165,3 +165,20 @@ body{
   color: white;
   padding: 3%;
 }
+
+footer h3, footer p{
+  color: white;
+  text-align: center;
+
+  padding: 3%;
+}
+footer a i{
+  color:white;
+  font-size: 40px;
+  position: relative;
+  left: 10%;
+  margin: 5%;
+}
+#copyright{
+  background-color: #1a252f;
+}
