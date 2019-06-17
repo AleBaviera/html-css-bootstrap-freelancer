@@ -26,7 +26,7 @@ body{
 }
 .navbar ul{
   float: right;
-
+  margin-right: 20px;
 }
 .navbar ul li {
   font-size: 15px;
@@ -38,6 +38,13 @@ body{
  color: #53BD9D;
  text-decoration: none;
 
+}
+.navbar button{
+  background-color: #53BD9D;
+  width: 50px;
+  height: 40px;
+  float: right;
+  border-radius: 2px;
 }
 
 #chisiamo{
@@ -126,6 +133,21 @@ body{
   text-align: left;
   margin: 5% 10%;
 
+}
+#about button{
+  border-radius: 5px;
+  border-color: white;
+  background-color: #53BD9D;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#about button:hover{
+  background-color: white;
+  color:#2C3E50;
 }
 #contact{
   margin: 5% 25%;
