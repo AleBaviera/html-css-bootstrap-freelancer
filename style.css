@@ -47,6 +47,15 @@ body{
   border-radius: 2px;
 }
 
+@media all and (max-width:767) {
+  header .navbar button{
+    display: none;
+  }
+}
+
+
+
+
 #chisiamo{
   background-color: #53BD9D;
   padding: 200px 0;
